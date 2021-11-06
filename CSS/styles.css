@@ -1,3 +1,7 @@
-.main {
+body {
   font-family: roboto;
+  color: #000000;
+}
+.auto {
+  cursor: pointer;
 }
