@@ -87,11 +87,11 @@
 }
 
 .tiledBackground {
-  background: rgba(47, 48, 58, 1);
-  background-size: 150px;
+  background-color: rgba(47, 48, 58, 1);
   width: 1600px;
   height: 600px;
-  border: 2px solid;
+  position: absolute;
+  top: 80px;
 }
 .button {
   font-family: "roboto";
@@ -394,6 +394,8 @@
 }
 .main-container {
   background-color: #1e2939;
-  width: 1000px;
-  padding: 1000px;
+  width: 1600px;
+  height: 252px;
+  position: absolute;
+  top: 2097px;
 }
