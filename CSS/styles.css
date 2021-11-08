@@ -99,6 +99,7 @@
   left: 700px;
   color: rgba(255, 255, 255, 1);
   background: rgba(33, 150, 243, 1);
+  cursor: pointer;
 }
 /*Main section  */
 .main_section_1 {
@@ -428,6 +429,7 @@
   left: 495px;
   color: rgba(255, 255, 255, 1);
   background: rgba(33, 150, 243, 1);
+  cursor: pointer;
 }
 .filter-button2 {
   font-family: "roboto";
@@ -441,6 +443,7 @@
   height: 38px;
   left: 576px;
   color: rgba(33, 33, 33, 1);
+  cursor: pointer;
 }
 .filter-button3 {
   font-family: "roboto";
@@ -454,6 +457,7 @@
   height: 38px;
   left: 712px;
   color: rgba(33, 33, 33, 1);
+  cursor: pointer;
 }
 .filter-button4 {
   font-family: "roboto";
@@ -467,6 +471,7 @@
   height: 38px;
   left: 865px;
   color: rgba(33, 33, 33, 1);
+  cursor: pointer;
 }
 .filter-button5 {
   font-family: "roboto";
@@ -480,6 +485,7 @@
   height: 38px;
   left: 976px;
   color: rgba(33, 33, 33, 1);
+  cursor: pointer;
 }
 /*images  */
 .images1 {
