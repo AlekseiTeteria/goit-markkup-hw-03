@@ -78,12 +78,12 @@
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-  top: 280px;
-  width: 696px;
-  height: 120px;
+  font-style: normal;
+  text-align: center;
   color: rgba(255, 255, 255, 1);
   position: absolute;
-  margin-left: 452px;
+  top: 260px;
+  margin-left: 537px;
 }
 
 .tiledBackground {
@@ -365,13 +365,14 @@
   height: 19px;
   width: 130px;
 }
+/*footer  */
 .logo3 {
   font-family: "Raleway";
   font-weight: 700;
   font-style: normal;
   font-size: 26px;
   color: rgba(33, 150, 243, 1);
-  margin-left: 215px;
+  margin-left: 255px;
   position: absolute;
   top: 2157px;
 }
@@ -380,8 +381,16 @@
   font-weight: 700;
   font-style: normal;
   font-size: 26px;
-  color: rgba(0, 0, 0, 1);
+  color: rgb(252, 248, 248);
 }
+.tiledBackground_footer {
+  background-color: #1e2939;
+  width: 1600px;
+  height: 252px;
+  position: absolute;
+  top: 2097px;
+}
+
 .footer_adress {
   font-family: "roboto";
   font-weight: 400;
@@ -389,13 +398,26 @@
   font-style: normal;
   color: rgba(255, 255, 255, 1);
   margin-left: 215px;
-  position: absolute;
   top: 2208px;
-}
-.main-container {
-  background-color: #1e2939;
-  width: 1600px;
-  height: 252px;
   position: absolute;
-  top: 2097px;
+}
+.email_footer {
+  font-family: "roboto";
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  color: rgba(255, 255, 255, 1);
+  margin-left: 215px;
+  top: 2238px;
+  position: absolute;
+}
+.telephone_footer {
+  font-family: "roboto";
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  color: rgba(255, 255, 255, 1);
+  margin-left: 215px;
+  top: 2268px;
+  position: absolute;
 }
