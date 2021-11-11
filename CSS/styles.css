@@ -9,9 +9,7 @@
   font-style: normal;
   font-size: 26px;
   color: rgba(33, 150, 243, 1);
-  margin-left: 215px;
-  position: absolute;
-  top: 24px;
+  text-decoration: none;
 }
 .logo2 {
   font-family: "Raleway";
@@ -19,52 +17,25 @@
   font-style: normal;
   font-size: 26px;
   color: rgba(0, 0, 0, 1);
+  text-decoration: none;
 }
-.general {
-  font-family: "roboto";
+.menu_buttons {
   font-weight: 500;
   font-size: 14px;
   color: rgba(33, 150, 243, 1);
-  margin-left: 453px;
-  position: absolute;
-  top: 32px;
+  text-decoration: none;
+  line-height: 60px;
+  white-space: normal;
 }
-.portfolio {
-  font-family: "roboto";
+.menu_buttons_2 {
   font-weight: 500;
   font-size: 14px;
   color: rgba(33, 33, 33, 1);
-  margin-left: 552px;
-  position: absolute;
-  top: 32px;
+  text-decoration: none;
+  line-height: 60px;
+  white-space: normal;
 }
-.contact {
-  font-family: "roboto";
-  font-weight: 500;
-  font-size: 14px;
-  color: rgba(33, 33, 33, 1);
-  margin-left: 679px;
-  position: absolute;
-  top: 32px;
-}
-.email {
-  font-family: "roboto";
-  font-weight: 500;
-  font-size: 14px;
-  color: rgba(33, 150, 243, 1);
-  margin-left: 1078px;
-  position: absolute;
-  top: 32px;
-}
-.telephone {
-  font-family: "roboto";
-  font-weight: 500;
-  font-size: 14px;
-  color: rgba(33, 33, 33, 1);
-  margin-left: 1263px;
-  position: absolute;
-  top: 32px;
-}
+
 /*Title  */
 .title {
   font-family: "roboto";
@@ -73,33 +44,15 @@
   line-height: 60px;
   font-style: normal;
   text-align: center;
-  color: rgba(255, 255, 255, 1);
-  position: absolute;
-  top: 260px;
-  margin-left: 537px;
-}
-
-.tiledBackground {
-  background-color: rgba(47, 48, 58, 1);
-  width: 1600px;
-  height: 600px;
-  position: absolute;
-  top: 80px;
+  color: rgb(2, 2, 2);
 }
 .button {
-  font-family: "roboto";
   font-weight: 700;
   font-style: normal;
   font-size: 16px;
   line-height: 30px;
-  position: absolute;
-  top: 430px;
-  width: 200px;
-  height: 50px;
-  left: 700px;
   color: rgba(255, 255, 255, 1);
   background: rgba(33, 150, 243, 1);
-  cursor: pointer;
 }
 /*Main section  */
 .main_section_1 {
