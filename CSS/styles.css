@@ -1,372 +1,135 @@
 .main {
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
+  font-style: normal;
 }
 /*home  */
 .logo1 {
   font-family: "Raleway";
   font-weight: 700;
-  font-style: normal;
   font-size: 26px;
   color: rgba(33, 150, 243, 1);
   text-decoration: none;
 }
 .logo2 {
-  font-family: "Raleway";
   font-weight: 700;
-  font-style: normal;
   font-size: 26px;
   color: rgba(0, 0, 0, 1);
   text-decoration: none;
 }
-.menu_buttons {
-  font-weight: 500;
+.general_1 {
+  font-weight: 700;
   font-size: 14px;
   color: rgba(33, 150, 243, 1);
   text-decoration: none;
-  line-height: normal;
+  line-height: 100%;
   white-space: normal;
 }
-.menu_buttons_2 {
-  font-weight: 500;
+.general {
+  font-weight: 700;
   font-size: 14px;
   color: rgba(33, 33, 33, 1);
   text-decoration: none;
-  line-height: normal;
+  line-height: 100%;
   white-space: normal;
 }
-
 /*Title  */
 .title {
-  font-family: "roboto";
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 100%;
   font-style: normal;
   text-align: center;
   color: rgb(2, 2, 2);
 }
 .button {
   font-weight: 700;
-  font-style: normal;
   font-size: 16px;
-  line-height: normal;
+  line-height: 30px;
+  text-align: center;
   color: rgba(255, 255, 255, 1);
   background: rgba(33, 150, 243, 1);
 }
 /*Main section  */
 .main_section_1 {
-  font-family: "roboto";
   font-weight: 700;
-  font-style: normal;
   font-size: 14px;
+  font-style: normal;
+  line-height: 100%;
   color: rgba(33, 33, 33, 1);
-  margin-left: 215px;
-  position: absolute;
-  top: 774px;
-  height: 16px;
 }
 .main_section_1_2 {
-  font-family: "roboto";
   font-weight: 400;
-  font-style: normal;
   font-size: 14px;
+  font-style: normal;
+  line-height: 146%;
   color: rgba(117, 117, 117, 1);
-  margin-left: 215px;
-  position: absolute;
-  top: 800px;
-  height: 75px;
 }
 .main_section_2 {
-  font-family: "roboto";
   font-weight: 700;
-  font-style: normal;
   font-size: 14px;
+  font-style: normal;
+  line-height: 1;
   color: rgba(33, 33, 33, 1);
-  margin-left: 515px;
-  position: absolute;
-  top: 774px;
-  height: 16px;
-}
-.main_section_2_2 {
-  font-family: "roboto";
-  font-weight: 400;
-  font-style: normal;
-  font-size: 14px;
-  color: rgba(117, 117, 117, 1);
-  margin-left: 515px;
-  position: absolute;
-  top: 800px;
-  height: 75px;
-}
-.main_section_3 {
-  font-family: "roboto";
-  font-weight: 700;
-  font-style: normal;
-  font-size: 14px;
-  color: rgba(33, 33, 33, 1);
-  margin-left: 815px;
-  position: absolute;
-  top: 774px;
-  height: 16px;
-}
-.main_section_3_2 {
-  font-family: "roboto";
-  font-weight: 400;
-  font-style: normal;
-  font-size: 14px;
-  color: rgba(117, 117, 117, 1);
-  margin-left: 815px;
-  position: absolute;
-  top: 800px;
-  height: 75px;
-}
-.main_section_4 {
-  font-family: "roboto";
-  font-weight: 700;
-  font-style: normal;
-  font-size: 14px;
-  color: rgba(33, 33, 33, 1);
-  margin-left: 1115px;
-  position: absolute;
-  top: 774px;
-  height: 16px;
-}
-.main_section_4_2 {
-  font-family: "roboto";
-  font-weight: 400;
-  font-style: normal;
-  font-size: 14px;
-  color: rgba(117, 117, 117, 1);
-  margin-left: 1115px;
-  position: absolute;
-  top: 800px;
-  height: 75px;
 }
 /*work section  */
 .work {
-  font-family: "roboto";
   font-weight: 700;
-  font-style: normal;
   font-size: 36px;
+  text-align: center;
+  line-height: 1;
   color: rgba(33, 33, 33, 1);
-  margin-left: 612px;
-  position: absolute;
-  top: 969px;
-  height: 42px;
-}
-.work_1 {
-  margin-left: 215px;
-  position: absolute;
-  top: 1061px;
-  height: 294px;
-  width: 370px;
-}
-.work_2 {
-  margin-left: 615px;
-  position: absolute;
-  top: 1061px;
-  height: 294px;
-  width: 370px;
-}
-.work_3 {
-  margin-left: 1015px;
-  position: absolute;
-  top: 1061px;
-  height: 294px;
-  width: 370px;
 }
 /*Command section  */
 .command_general {
-  font-family: "roboto";
   font-weight: 700;
-  font-style: normal;
   font-size: 36px;
   color: rgba(33, 33, 33, 1);
-  margin-left: 612px;
-  position: absolute;
-  top: 1543px;
-  height: 42px;
+  text-align: center;
 }
 .command_1 {
-  margin-left: 215px;
-  position: absolute;
-  top: 1635px;
   height: 260px;
   width: 270px;
 }
-.command_2 {
-  margin-left: 515px;
-  position: absolute;
-  top: 1635px;
-  height: 260px;
-  width: 270px;
-}
-.command_3 {
-  margin-left: 815px;
-  position: absolute;
-  top: 1635px;
-  height: 260px;
-  width: 270px;
-}
-.command_4 {
-  margin-left: 1115px;
-  position: absolute;
-  top: 1635px;
-  height: 260px;
-  width: 270px;
-}
-.command_1_2 {
-  font-family: "roboto";
+.command_12 {
   font-weight: 500;
-  font-style: normal;
   font-size: 16px;
+  font-style: medium;
   color: rgba(33, 33, 33, 1);
-  margin-left: 275px;
-  position: absolute;
-  top: 1925px;
-  height: 19px;
-  width: 151px;
-}
-.command_2_2 {
-  font-family: "roboto";
-  font-weight: 500;
-  font-style: normal;
-  font-size: 16px;
-  color: rgba(33, 33, 33, 1);
-  margin-left: 596px;
-  position: absolute;
-  top: 1925px;
-  height: 19px;
-  width: 151px;
-}
-.command_3_2 {
-  font-family: "roboto";
-  font-weight: 500;
-  font-style: normal;
-  font-size: 16px;
-  color: rgba(33, 33, 33, 1);
-  margin-left: 882px;
-  position: absolute;
-  top: 1925px;
-  height: 19px;
-  width: 151px;
-}
-.command_4_2 {
-  font-family: "roboto";
-  font-weight: 500;
-  font-style: normal;
-  font-size: 16px;
-  color: rgba(33, 33, 33, 1);
-  margin-left: 1183px;
-  position: absolute;
-  top: 1925px;
-  height: 19px;
-  width: 151px;
+  line-height: 100%;
 }
 .command_1_3 {
-  font-family: "roboto";
   font-weight: 400;
-  font-style: normal;
   font-size: 16px;
-  color: rgba(117, 117, 117, 1);
-  margin-left: 285px;
-  position: absolute;
-  top: 1954px;
-  height: 19px;
-  width: 130px;
-}
-.command_2_3 {
-  font-family: "roboto";
-  font-weight: 400;
   font-style: normal;
-  font-size: 16px;
   color: rgba(117, 117, 117, 1);
-  margin-left: 577px;
-  position: absolute;
-  top: 1954px;
-  height: 19px;
-  width: 147px;
-}
-.command_3_3 {
-  font-family: "roboto";
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16px;
-  color: rgba(117, 117, 117, 1);
-  margin-left: 912px;
-  position: absolute;
-  top: 1954px;
-  height: 19px;
-  width: 147px;
-}
-.command_4_3 {
-  font-family: "roboto";
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16px;
-  color: rgba(117, 117, 117, 1);
-  margin-left: 1207px;
-  position: absolute;
-  top: 1954px;
-  height: 19px;
-  width: 130px;
+  line-height: 100%;
 }
 /*footer  */
 .logo3 {
   font-family: "Raleway";
   font-weight: 700;
-  font-style: normal;
   font-size: 26px;
   color: rgba(33, 150, 243, 1);
-  margin-left: 255px;
-  position: absolute;
-  top: 2157px;
+  text-decoration: none;
 }
 .logo4 {
   font-family: "Raleway";
   font-weight: 700;
-  font-style: normal;
   font-size: 26px;
-  color: rgb(252, 248, 248);
+  color: rgb(117, 117, 117, 1);
+  text-decoration: none;
 }
-.tiledBackground_footer {
-  background-color: #1e2939;
-  width: 1600px;
-  height: 252px;
-  position: absolute;
-  top: 2097px;
-}
-
 .footer_adress {
-  font-family: "roboto";
   font-weight: 400;
   font-size: 14px;
-  font-style: normal;
-  color: rgba(255, 255, 255, 1);
-  margin-left: 215px;
-  top: 2208px;
-  position: absolute;
+  color: rgba(117, 117, 117, 1);
+  text-decoration: none;
 }
-.email_footer {
-  font-family: "roboto";
+.email_telephone_footer {
   font-weight: 400;
   font-size: 14px;
-  font-style: normal;
-  color: rgba(255, 255, 255, 1);
-  margin-left: 215px;
-  top: 2238px;
-  position: absolute;
-}
-.telephone_footer {
-  font-family: "roboto";
-  font-weight: 400;
-  font-size: 14px;
-  font-style: normal;
-  color: rgba(255, 255, 255, 1);
-  margin-left: 215px;
-  top: 2268px;
-  position: absolute;
+  color: rgba(117, 117, 117, 1);
+  text-decoration: none;
 }
 /*portfolio  */
 .filter-button1 {
@@ -375,70 +138,15 @@
   font-style: normal;
   font-size: 16px;
   line-height: 26px;
-  position: absolute;
-  top: 174px;
-  width: 73px;
-  height: 38px;
-  left: 495px;
   color: rgba(255, 255, 255, 1);
   background: rgba(33, 150, 243, 1);
-  cursor: pointer;
 }
 .filter-button2 {
-  font-family: "roboto";
   font-weight: 500;
   font-style: normal;
   font-size: 16px;
   line-height: 26px;
-  position: absolute;
-  top: 174px;
-  width: 128px;
-  height: 38px;
-  left: 576px;
   color: rgba(33, 33, 33, 1);
-  cursor: pointer;
-}
-.filter-button3 {
-  font-family: "roboto";
-  font-weight: 500;
-  font-style: normal;
-  font-size: 16px;
-  line-height: 26px;
-  position: absolute;
-  top: 174px;
-  width: 145px;
-  height: 38px;
-  left: 712px;
-  color: rgba(33, 33, 33, 1);
-  cursor: pointer;
-}
-.filter-button4 {
-  font-family: "roboto";
-  font-weight: 500;
-  font-style: normal;
-  font-size: 16px;
-  line-height: 26px;
-  position: absolute;
-  top: 174px;
-  width: 103px;
-  height: 38px;
-  left: 865px;
-  color: rgba(33, 33, 33, 1);
-  cursor: pointer;
-}
-.filter-button5 {
-  font-family: "roboto";
-  font-weight: 500;
-  font-style: normal;
-  font-size: 16px;
-  line-height: 26px;
-  position: absolute;
-  top: 174px;
-  width: 130px;
-  height: 38px;
-  left: 976px;
-  color: rgba(33, 33, 33, 1);
-  cursor: pointer;
 }
 /*images  */
 .images1 {
