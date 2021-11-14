@@ -149,68 +149,9 @@
   color: rgba(33, 33, 33, 1);
 }
 /*images  */
-.images1 {
+.images {
   width: 370px;
   height: 294px;
-  top: 262px;
-  margin-left: 215px;
-  position: absolute;
-}
-.images2 {
-  width: 370px;
-  height: 294px;
-  top: 262px;
-  margin-left: 615px;
-  position: absolute;
-}
-.images3 {
-  width: 370px;
-  height: 294px;
-  top: 262px;
-  margin-left: 1015px;
-  position: absolute;
-}
-.images4 {
-  width: 370px;
-  height: 294px;
-  top: 696px;
-  margin-left: 215px;
-  position: absolute;
-}
-.images5 {
-  width: 370px;
-  height: 294px;
-  top: 696px;
-  margin-left: 615px;
-  position: absolute;
-}
-.images6 {
-  width: 370px;
-  height: 294px;
-  top: 696px;
-  margin-left: 1015px;
-  position: absolute;
-}
-.images7 {
-  width: 370px;
-  height: 294px;
-  top: 1130px;
-  margin-left: 215px;
-  position: absolute;
-}
-.images8 {
-  width: 370px;
-  height: 294px;
-  top: 1130px;
-  margin-left: 615px;
-  position: absolute;
-}
-.images9 {
-  width: 370px;
-  height: 294px;
-  top: 1130px;
-  margin-left: 1015px;
-  position: absolute;
 }
 /*projects  */
 .projects1 {
