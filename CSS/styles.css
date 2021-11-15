@@ -36,8 +36,7 @@
 .title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 100%;
-  font-style: normal;
+  line-height: 116%;
   text-align: center;
   color: rgb(2, 2, 2);
 }
@@ -53,21 +52,18 @@
 .main_section_1 {
   font-weight: 700;
   font-size: 14px;
-  font-style: normal;
   line-height: 100%;
   color: rgba(33, 33, 33, 1);
 }
 .main_section_1_2 {
   font-weight: 400;
   font-size: 14px;
-  font-style: normal;
   line-height: 146%;
   color: rgba(117, 117, 117, 1);
 }
 .main_section_2 {
   font-weight: 700;
   font-size: 14px;
-  font-style: normal;
   line-height: 1;
   color: rgba(33, 33, 33, 1);
 }
@@ -100,7 +96,6 @@
 .command_1_3 {
   font-weight: 400;
   font-size: 16px;
-  font-style: normal;
   color: rgba(117, 117, 117, 1);
   line-height: 100%;
 }
@@ -133,19 +128,16 @@
 }
 /*portfolio  */
 .filter-button1 {
-  font-family: "roboto";
   font-weight: 500;
-  font-style: normal;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 139%;
   color: rgba(255, 255, 255, 1);
   background: rgba(33, 150, 243, 1);
 }
 .filter-button2 {
   font-weight: 500;
-  font-style: normal;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 139%;
   color: rgba(33, 33, 33, 1);
 }
 /*images  */
@@ -155,17 +147,16 @@
 }
 /*projects  */
 .projects {
-  font-family: "roboto";
+  font-style: bold;
   font-weight: 700;
-  font-style: normal;
   font-size: 18px;
+  line-height: 171%;
   color: rgba(33, 33, 33, 1);
 }
 /*description */
 .description {
-  font-family: "roboto";
   font-weight: 400;
-  font-style: normal;
   font-size: 16px;
+  line-height: 160%;
   color: rgba(117, 117, 117, 1);
 }
