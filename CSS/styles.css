@@ -47,6 +47,7 @@
   text-align: center;
   color: rgba(255, 255, 255, 1);
   background: rgba(33, 150, 243, 1);
+  cursor: pointer;
 }
 /*Main section  */
 .main_section_1 {
@@ -133,12 +134,14 @@
   line-height: 139%;
   color: rgba(255, 255, 255, 1);
   background: rgba(33, 150, 243, 1);
+  cursor: pointer;
 }
 .filter-button2 {
   font-weight: 500;
   font-size: 16px;
   line-height: 139%;
   color: rgba(33, 33, 33, 1);
+  cursor: pointer;
 }
 /*images  */
 .images {
