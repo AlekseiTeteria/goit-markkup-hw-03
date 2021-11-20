@@ -52,7 +52,7 @@
   text-align: center;
   color: rgb(255, 255, 255, 1);
   display: inline-table;
-  letter-spacing: 0.696em;
+  letter-spacing: 0.06em;
 }
 .button {
   font-family: "Roboto";
@@ -63,7 +63,7 @@
   color: rgba(255, 255, 255, 1);
   background: rgba(33, 150, 243, 1);
   cursor: pointer;
-  letter-spacing: 0.74em;
+  letter-spacing: 0.06em;
   vertical-align: bottom;
 }
 /*Main section  */
@@ -154,7 +154,7 @@
   color: rgba(255, 255, 255, 1);
   background: rgba(33, 150, 243, 1);
   cursor: pointer;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
 }
 .filter-button2 {
   font-family: "Roboto";
@@ -163,7 +163,7 @@
   line-height: 1.6;
   color: rgba(33, 33, 33, 1);
   cursor: pointer;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
 }
 /*images  */
 .images {
