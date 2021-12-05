@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8" />
@@ -7,32 +7,44 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>portfolio</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="./CSS/styles.css"/>
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./CSS/styles.css" />
 </head>
 
-<body class="main">
+<body class="body">
   <!-- home -->
-  <nav>
-    <a class="logo1" href="https://alekseiteteria.github.io/goit-markup-hw-02/index.html">Web<span
-        class="logo2">Studio</span></a>
-    <ul class="blok_li">
-      <li><a class="general_1" href="https://alekseiteteria.github.io/goit-markup-hw-02/index.html">Главная</a></li>
-      <li><a class="general" href="https://alekseiteteria.github.io/goit-markup-hw-02/portfolio.html">Портфолио</a>
-      </li>
-      <li><a class="general" href="">Контакты</a></li>
-    </ul>
-  </nav>
-  <ul class="blok_li">
-    <li><a class="general_1" href="">teteriaaleksei@gmail.com</a></li>
-    <li><a class="general" href="">+38 093 280 32 52</a></li>
-  </ul>
+  <header class="header">
+    <div class="navbar">
+      <a class="logo1" href="https://alekseiteteria.github.io/goit-markup-hw-02/index.html">Web<span
+          class="logo2">Studio</span></a>
+      <nav class="nav-box">
+        <ul class="nav-links">
+          <li >
+            <a class="nav-item" href="https://alekseiteteria.github.io/goit-markup-hw-02/index.html">Главная</a>
+          </li>
+          <li>
+            <a class="nav-item" href="https://alekseiteteria.github.io/goit-markup-hw-02/portfolio.html">Портфолио</a>
+          </li>
+          <li><a class="nav-item" href="">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="link-box">
+        <a href="teteriaaleksei@gmail.com" class="link-box-adress">teteriaaleksei@gmail.com</a>
+        <a href="+380932803252" class="link-box-adress">+38 093 280 32 52</a>
+      </div>
+    </div>
+  </header>
+ 
   <!-- button abd command-->
   <main>
     <section>
+      <div class="container">
       <ul class="blok_li">
         <li>
           <button class="filter-button1" type="button">Все</button>
@@ -97,6 +109,7 @@
           <p class="description">Приложение</p>
         </li>
       </ul>
+      </div>
     </section>
   </main>
   <!-- footer -->
