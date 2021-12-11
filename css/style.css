@@ -2,13 +2,22 @@
     --main-color: #212121;
     --sec-color: #757575;
     --act-color: #2196f3;
+    --hover-color-button: #188ce8;
+    --primary-backgraund-color: #ffffff;
+    --back-craund-color: #2f303a;
+    --back-graund-second: #f5f4fa;
+    --backgraund-color: #f5f4fa;
+    --main-color: #fffff;
 }
-.body {
+body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-size: 14px;
 }
 .section {
+    display: flex;
+    flex-direction: column;
+
     padding: 94px 0;
 }
 .container {
@@ -23,6 +32,20 @@
     overflow: hidden;
     opacity: 0;
     margin-top: -1px;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
 }
 nav,
 .links,
@@ -39,6 +62,11 @@ header .logo {
     display: flex;
     align-items: center;
 }
+main .container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
@@ -80,3 +108,5 @@ header .logo {
 .contacts li:first-child a {
     margin-left: 0;
 }
+
+/*footer*/
