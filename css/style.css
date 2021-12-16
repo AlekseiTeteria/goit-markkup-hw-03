@@ -8,7 +8,7 @@
     --back-graund-second: #f5f4fa;
     --backgraund-color: #f5f4fa;
     --main-color-wit: #fff;
-    --background-portfolio: #
+    --background-portfolio: #e5e5e5;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -22,7 +22,6 @@ body {
 .container {
     padding: 0 15px;
     width: 1200px;
-    border: 1px solid red;
     margin: 0 auto;
 }
 .hidden-item {
@@ -54,6 +53,7 @@ ul {
 nav,
 .links,
 .contacts,
+.link,
 header .container {
     display: flex;
     justify-content: space-between;
@@ -161,7 +161,7 @@ header .logo {
     color: var(--sec-color);
     font-family: Roboto;
     font-size: 14px;
-    line-height: 1.71;
+    line-height: calc(24 / 14);
     padding-top: 10px;
 }
 .section-titles {
@@ -169,7 +169,7 @@ header .logo {
     font-family: Roboto;
     font-weight: bold;
     font-size: 14px;
-    line-height: 1.14;
+    line-height: calc(16 / 14);
     text-transform: uppercase;
 }
 .future-list {
@@ -188,7 +188,7 @@ header .logo {
     font-family: Robot;
     font-weight: bold;
     font-size: 36px;
-    line-height: 1.17;
+    line-height: calc(42 / 36);
     text-align: center;
     margin-bottom: 50px;
 }
@@ -205,15 +205,7 @@ header .logo {
 }
 
 /*section out team  */
-.section-title {
-    color: var(--main-color);
-    font-family: Robot;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    margin-bottom: 50px;
-}
+
 .out-team {
     background: var(--back-graund-second);
 }
@@ -231,7 +223,7 @@ header .logo {
 .out-team .title {
     font-weight: 500px;
     font-size: 36px;
-    line-height: 1.19;
+    line-height: calc(19 / 16);
     margin-bottom: 50px;
     text-align: center;
 }
@@ -239,7 +231,7 @@ header .logo {
     color: var(--main-color);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.19;
+    line-height: calc(19 / 16);
     text-align: center;
     margin-bottom: 10px;
     margin-top: 30px;
@@ -247,86 +239,113 @@ header .logo {
 .out-team .profession {
     color: var(--sec-color);
     font-size: 16px;
-    line-height: 1.19;
+    line-height: calc(19 / 16);
     text-align: center;
 }
 /*footer*/
-footer .logo-footer {
-    margin: 60px 0 0 0;
-    display: flex;
-    align-items: center; 
-
- 
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--back-craund-color);
 }
 .logo-footer {
+    color: var(--act-color);
     font-family: 'Raleway', sans-serif;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
     line-height: calc(31 / 26);
     letter-spacing: 0.03em;
+    display: block;
 
-    color: var(--act-color);
 }
 .logo-footer-wit {
     color: var(--main-color-wit);
-    display: inline-block;
+    font-family: "Raleway" ,sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
     margin-right: 5px;
-}
 
-.link li a {
+}
+.home {
     color: var(--main-color-wit);
-    font-family: 'roboto';
-    display: flex;
-    flex-direction: column;
-    padding: 9px 0;
+    font-family: Roboto;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
+}
+.adress {
     font-style: normal;
-}
-.contact li a {
-    color: var(--sec-color);
-}
-.contact li a:hover,
-.contact li a:focus,
-.link li a:hover,
-.link li a:focus {
-    color: var(--act-color);
-}
-.link li:last-child {
-    margin-bottom: 60px;
-}
-.link li:first-child {
     margin-top: 20px;
-}
-/*portfolio*/
-.btn {
-    border: 0;
-    background-color: var(--buttom-color);
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
+  }
+  .footer-adress {
+    display: inline-block;
+    margin-top: 9px;
+    display: block;
+    color: var(--sec-color);
+    font-size: 14px;
+    line-height: calc(24 / 14);
     letter-spacing: 0.03em;
-  
-    min-width: 73px;
-    padding: 6px 22px;
   }
-  
-  .btn:hover,
-  :focus {
-    background-color: var(--hover-color);
-    color: var(--wait);
+  .link {
+    display: inline-block;
   }
-  
-  .buttons-list {
+  .link li a:hover,
+  .link li a:focus {
+     color: var(--act-color);
+ }
+/*portfolio-button*/
+
+  .button-list {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
   }
-  
-  .button-item + .button-item {
+  .btn {
+    padding: 8px 22px;
+    border-style: none;
+    border-radius: 4px;
+    color: var(--main-color-black);
+    background-color: var(--back-graund-second);
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+  .button-item:not(:first-child) {
     margin-left: 8px;
   }
-
-
+  .btn:hover,
+  .btn:focus {
+    color: var(--primary-backgraund-color);
+    background-color: var(--act-color);
+  }
+  /*portfolio-general*/
+  .portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
+  .portfolio-image {
+    margin: 15px;
+  }
+  .portfolio-title {
+    color: var(--main-color-black);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(36 / 18);
+    letter-spacing: 0.06em;
+  }
+  .portfolio-text {
+    margin-top: 4px;
+    color: var(--sec-color);
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.03em;
+  }
+  
+  .portfolio-name {
+    padding: 20px 24px;
+    border-bottom: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+  }
