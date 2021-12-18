@@ -128,39 +128,41 @@ header .logo {
 .hero {
     background: var(--back-craund-color);
     text-align: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding: 200px 0;
  
  }
 .hero-title {
-    text-align: center;
-    margin-bottom: 30px;
-    width: 696px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    font-weight: 900;
     font-size: 44px;
-    line-height: calc(60 / 44);
-    letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--primary-backgraund-color);
+    color: var(--main-color-wit);
+    line-height: calc(60 / 44);
+    text-align: center;
+    letter-spacing: 0.06em;
+    max-width: 650px;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
 .hero-button {
-    color: var(--main-color-wit);
-    background-color: var(--act-color);
-    font-weight: 700;
+    padding: 10px 32px;
+    background: var(--act-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
     font-size: 16px;
     line-height: calc(30 / 16);
     letter-spacing: 0.06em;
-    border-radius: 4px;
-    padding: 10px 32px;
+    color: var(--main-color-wit);
+    margin: 0 auto;
+    display: block;
   }
-
+  .hero-button:focus,
+  .hero-button:hover {
+    background: #188ce8;
+  }
 /*Main section 1  */
+
 .hide {
-    visibility: hidden;
-}
+    visibility: hidden;}
+
 .section-subtitle {
     text-align: center;
 }
