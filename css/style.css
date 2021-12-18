@@ -9,11 +9,14 @@
     --backgraund-color: #f5f4fa;
     --main-color-wit: #fff;
     --background-portfolio: #e5e5e5;
+    --footer-adress: rgba(255, 255, 255, 0.6);
 }
+
 body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-size: 14px;
+    margin: 0;
 }
 .section {
 
@@ -23,6 +26,7 @@ body {
     padding: 0 15px;
     width: 1200px;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 .hidden-item {
     width: 1px;
@@ -162,7 +166,7 @@ header .logo {
     font-family: Roboto;
     font-size: 14px;
     line-height: calc(24 / 14);
-    padding-top: 10px;
+    margin-top: 10px;
 }
 .section-titles {
     color: var(--main-cRolor);
@@ -182,19 +186,22 @@ header .logo {
 .future-list .item {
     width: 270px;
 }
-
+/*doing  */
 .section-title {
     color: var(--main-color);
-    font-family: Robot;
+    font-family: Roboto;
     font-weight: bold;
     font-size: 36px;
     line-height: calc(42 / 36);
     text-align: center;
     margin-bottom: 50px;
 }
-/*doing  */
+
 .doing {
     background: var(--main-color);
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 94px;
 }
 .doing .item + .item {
     margin-left: 30px;
@@ -205,9 +212,16 @@ header .logo {
 }
 
 /*section out team  */
+.super {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
 .out-team {
     background: var(--back-graund-second);
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 94px;
 }
 .out-team-list .item + .item {
     margin-left: 30px;
@@ -282,7 +296,7 @@ header .logo {
     display: inline-block;
     margin-top: 9px;
     display: block;
-    color: var(--sec-color);
+    color: var(--footer-adress);
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
